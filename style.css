@@ -12,6 +12,16 @@ p {
   font-size: 18px;
 }
 
+header {
+  background-image: url('./images/Header-llustration-desktop.png');
+  background-size: cover;
+  height: 900px;
+}
+
+.header-content {
+  width: 60%;
+}
+
 .header-content .hello-span {
   color: green;
 }
@@ -42,9 +52,20 @@ p {
   width: 750px;
 }
 
+.card {
+  width: 25rem;
+}
+
+.card-round {
+  height: 225px;
+  background-color: #ebf0ee;
+  border-radius: 10px;
+}
+
 .card-body span {
   color: #3a4a42;
   background-color: #ebf0ee;
-  padding: 10px;
+  padding: 5px;
   border-radius: 4px;
+  margin: 5px;
 }
