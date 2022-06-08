@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav {
+    color: #6070ff;
+    background-color: #fff;
+
+}
