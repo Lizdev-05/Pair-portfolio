@@ -113,9 +113,27 @@ header {
     margin-right: 1px;
 }
 
-/* .form-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    height: 490px;
-} */
+.form-img-1 {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: -115px;
+    bottom: -80px;
+   
+  }
+
+  .form-img-2 {
+    display: block;
+    position: absolute;
+    bottom: -100px;
+    left: 15%;
+    transform: scale(0.5, 0.5);
+  }
+
+  .form-img-3 {
+    display: block;
+    position: absolute;
+    right: -50px;
+    bottom: -120px;
+    transform: scale(0.5, 0.5);
+  }
