@@ -95,3 +95,20 @@ header {
     bottom: -80px;
     transform: scale(0.25, 0.25);
 }
+
+.tags{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  margin: 24px 0
+}
+
+.frame-tags span, .skill-tags span{
+    margin-right: 1px;
+}
+
+.lang-tag span{
+    margin-right: 1px;
+}
