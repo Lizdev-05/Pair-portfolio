@@ -112,3 +112,10 @@ header {
 .lang-tag span{
     margin-right: 1px;
 }
+
+/* .form-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: 490px;
+} */
