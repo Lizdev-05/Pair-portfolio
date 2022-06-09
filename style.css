@@ -10,6 +10,12 @@ body {
 
 p {
   font-size: 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+color: #42526E;
 }
 
 header {
@@ -72,4 +78,20 @@ header {
 /*about me*/
 .section-intro {
   margin-top:130px;
+}
+
+.about-me-bg{
+    width: 100vw;
+}
+
+.bg-left{
+    right: -190px;
+    top: -140px;
+    transform: scale(0.25, 0.25);
+}
+
+.bg-right{
+    left: -215px;
+    bottom: -80px;
+    transform: scale(0.25, 0.25);
 }
