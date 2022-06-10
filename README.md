@@ -33,9 +33,11 @@ $ cd pair-portfolio-setup
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/)
-- Twitter: [@twitterhandle](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/)
+• GitHub: [@Lizdev-05](https://github.com/Lizdev-05)
+
+• Twitter: [@ojesanmi_oyin](https://twitter.com/ojesanmi_oyin)
+
+• LinkedIn: [Elizabeth Oyinlade Ojesanmi](https://www.linkedin.com/in/elizabeth-oyinlade-ojesanmi-0702aa16a)
 
 ## 🤝 Contributing
 
