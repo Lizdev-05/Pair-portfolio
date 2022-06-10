@@ -21,7 +21,7 @@ color: #42526E;
 header {
   background-image: url('./images/Header-llustration-desktop.png');
   background-size: cover;
-  height: 900px;
+
 }
 
 .header-content {
@@ -58,27 +58,42 @@ header {
   width: 750px;
 }
 
-.card {
+
+.card{
   width: 25rem;
+  margin-left: 0;
 }
 
+
 .card-round {
-  height: 225px;
+  height: 245px;
   background-color: #ebf0ee;
   border-radius: 10px;
+}
+
+.card-body{
+ border-radius:8px;
 }
 
 .card-body span {
   color: #3a4a42;
   background-color: #ebf0ee;
-  padding: 5px;
+  padding: 3px;
   border-radius: 4px;
-  margin: 5px;
+  margin: 3px;
 }
+
+.portfolio-card{
+  background-color:#fff; 
+  border:1px solid #ebf0ee;
+  border-radius:8px;
+}
+
 /*about me*/
 .section-intro {
   margin-top:130px;
 }
+
 
 .about-me-bg{
     width: 100vw;
@@ -136,4 +151,45 @@ header {
     right: -50px;
     bottom: -120px;
     transform: scale(0.5, 0.5);
+  }
+
+  @media only screen and (max-width: 768px){
+
+    section {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+    header {
+      background-image: url(images/mobile-background.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .header-content{
+      width: 100%;
+    }
+
+    .card{
+      width: 19rem;
+      margin-left: 7px;
+    }
+
+    .about-container{
+      margin-left: 7px;
+    }
+
+    .form-info p{
+      font-weight: 500;
+       font-size: 20px;
+        line-height: 1.5; 
+    }
+ .form-img-2 {
+    display: block;
+    position: absolute;
+    bottom: -150px;
+    left: 15%;
+    transform: scale(0.5, 0.5);
+  }
   }
